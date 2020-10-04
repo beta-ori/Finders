@@ -1,0 +1,47 @@
+*{
+	margin: 0%;
+	padding: 0%;
+}
+
+body{
+	background-size: cover;      
+    background-repeat: no-repeat;  
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto; 
+	background-position:center;
+}
+
+.container{
+	margin-top: 75px;
+}
+
+.home{
+	width: 100vw;
+	height: 100vh;
+	background-image: url('../img/hospital.jpg');
+	background-position: center;
+  	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 20%;
+	padding-top:10%;
+}
+
+.title{
+	font-size: 2em;
+}
+
+.navbar{
+	position: fixed;
+	top:0;
+}
+
+.navbar ul li{
+	font-size: 1.4em;
+}
+
+.home h1{
+	font-size: 3.5em;
+	font-weight: bold;
+	color: #f85f07;
+}
